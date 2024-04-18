@@ -19,4 +19,9 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 - [pandas](https://pandas.pydata.org/)
 - [Streamlit](https://streamlit.io/)
 
+## Math concepts
+- Finding optimal number of bins for feature engineering:
+    1. Sturges' Rule: Fit for data with small range i.e. 200 samples or less
+    2. Freedman-Diaconis Rule: Fit for greater data range
+
 Author: Muhammad Naufal Al Ghifari
