@@ -24,4 +24,7 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
     1. Sturges' Rule: Fit for data with small range i.e. 200 samples or less
     2. Freedman-Diaconis Rule: Fit for greater data range
 
+## Bibliography
+- Aurelien Geron. 2019. Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (2nd. ed.). O'Reilly Media, Inc.
+
 Author: Muhammad Naufal Al Ghifari
