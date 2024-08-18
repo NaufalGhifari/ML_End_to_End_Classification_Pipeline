@@ -7,3 +7,6 @@ numpy
 matplotlib
 streamlit
 streamlit-extras
+fastapi
+uvicorn
+joblib
