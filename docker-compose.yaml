@@ -1,0 +1,14 @@
+version: '3'
+services:
+  predictor:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+  node-web-app:
+    build:
+      context: ./node-web-app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - predictor
