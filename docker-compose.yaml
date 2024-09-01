@@ -12,3 +12,6 @@ services:
       - "3000:3000"
     depends_on:
       - predictor
+    volumes:
+      - ./node-web-app:/usr/src/app
+      - /usr/src/app/node_modules

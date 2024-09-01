@@ -1,15 +1,8 @@
 # Customer behavior prediction model using Random Forest Algorithm
 This repo aims to showcace an end-to-end pipeline of a Random Forest algorithm model to predict the behavior of a customer given a set of features such as age, profession, education, housing data, etc. The model is then deployed with FastAPI and served through a web application which provides easy and intuitive access.
 
-## Running Docker containers  
-### 1.A. Build backend container  
-```docker build -t customer_predict .```  
-
-### 1.B. Run backend container  
-```docker run -d -p 8000:8000 customer_predict```  
-
-### 2. Building and starting frontend container  
-First, change directory to 'node-web-app' with ```cd node-web-app```, then:  
+## Running the project (Docker)
+To start the project, ensure your [Docker desktop](https://www.docker.com/products/docker-desktop/) is running, and within this directory run:  
 ```docker-compose up```
 
 ##  An end-to-end classification pipeline:
